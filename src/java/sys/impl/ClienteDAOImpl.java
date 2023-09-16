@@ -57,7 +57,6 @@ public class ClienteDAOImpl implements ClienteDAO {
         } finally {
             session.close();
         }
-
     }
 
     @Override
@@ -75,5 +74,4 @@ public class ClienteDAOImpl implements ClienteDAO {
             session.close();
         }
     }
-
 }
